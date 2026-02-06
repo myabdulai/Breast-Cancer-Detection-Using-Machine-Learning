@@ -28,7 +28,6 @@
 
   </p>
 
-  
   <table>
     <thead>
       <tr>
@@ -56,14 +55,6 @@
       </tr>
     </tbody>
   </table>
-
-  <h2>Metric Definitions (Brief)</h2>
-  <ul>
-    <li><strong>Accuracy:</strong> Overall proportion of correct predictions.</li>
-    <li><strong>Precision:</strong> Of predicted malignant cases, how many were truly malignant (controls false positives).</li>
-    <li><strong>Recall (Sensitivity):</strong> Of truly malignant cases, how many were correctly detected (controls false negatives).</li>
-    <li><strong>F1-score:</strong> Harmonic mean of precision and recall; balances false positives and false negatives.</li>
-  </ul>
 
   <h2>Requirements</h2>
   <ul>
