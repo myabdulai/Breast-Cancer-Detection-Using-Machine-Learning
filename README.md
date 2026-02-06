@@ -21,8 +21,10 @@
 
   <h2>Results</h2>
   <p>
-    The Cross-validation results on the training set showed stable and consistent performance across all folds, indicating good generalization and low variance.
-Final evaluation on the held-out 20% test set produced strong performance across all metrics, including accuracy, precision, recall (sensitivity), and F1-score, demonstrating that the tuned model performs well on unseen data.
+    The Cross-validation results on the training set showed stable and consistent performance across all folds, 
+    indicating good generalization and low variance.
+    Final evaluation on the held-out 20% test set produced strong performance across all metrics, 
+    including accuracy, precision, recall (sensitivity), and F1-score, demonstrating that the tuned model performs well on unseen data.
 
   </p>
 
