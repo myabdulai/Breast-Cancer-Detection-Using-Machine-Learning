@@ -1,23 +1,4 @@
 <!-- README.html -->
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Breast Cancer Detection Using Machine Learning (Random Forest)</title>
-  <style>
-    body { font-family: Arial, Helvetica, sans-serif; line-height: 1.5; max-width: 900px; margin: 32px auto; padding: 0 16px; }
-    code, pre { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
-    pre { padding: 12px; overflow: auto; background: #f6f8fa; border: 1px solid #d0d7de; border-radius: 8px; }
-    table { border-collapse: collapse; width: 100%; margin: 12px 0; }
-    th, td { border: 1px solid #d0d7de; padding: 10px; text-align: left; }
-    th { background: #f6f8fa; }
-    .muted { color: #57606a; }
-    .badge { display: inline-block; padding: 2px 8px; border: 1px solid #d0d7de; border-radius: 999px; font-size: 12px; margin-right: 6px; }
-    ul { margin-top: 6px; }
-  </style>
-</head>
-
 <body>
   <h1>Breast Cancer Detection Using Machine Learning</h1>
 
@@ -50,24 +31,6 @@
     <li>scikit-learn</li>
     <li>pandas, numpy</li>
   </ul>
-
-  <h2>How to Run</h2>
-
-  <h3>1) Create environment & install dependencies</h3>
-  <pre><code>pip install -U numpy pandas scikit-learn</code></pre>
-
-  <h3>2) Train, cross-validate, tune, and evaluate</h3>
-  <p class="muted">
-    The pipeline follows these steps:
-    (1) load data, (2) 80/20 stratified split,
-    (3) 5-fold CV on training only,
-    (4) GridSearchCV on training only,
-    (5) final test evaluation.
-  </p>
-
-  <pre><code>python src/train_rf.py</code></pre>
-
-  <p><em>Tip:</em> If you are using a notebook, run all cells from top to bottom to avoid missing variables.</p>
 
   <h2>Methodology</h2>
   <ol>
