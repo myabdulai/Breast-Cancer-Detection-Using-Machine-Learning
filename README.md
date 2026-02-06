@@ -1,14 +1,6 @@
 <!-- README.html -->
 <body>
   <h1>Breast Cancer Detection Using Machine Learning</h1>
-
-  <p>
-    <span class="badge">Random Forest</span>
-    <span class="badge">5-Fold CV</span>
-    <span class="badge">GridSearchCV</span>
-    <span class="badge">80/20 Train/Test Split</span>
-  </p>
-
   <p>
     This project builds a machine learning classifier to detect breast cancer tumors as
     <strong>malignant</strong> or <strong>benign</strong> using the
@@ -42,10 +34,6 @@
   </ol>
 
   <h2>Results</h2>
-  <p class="muted">
-    Metrics below are taken from the submitted one-page report. :contentReference[oaicite:0]{index=0}
-  </p>
-
   <table>
     <thead>
       <tr>
@@ -82,13 +70,7 @@
     <li><strong>F1-score:</strong> Harmonic mean of precision and recall; balances false positives and false negatives.</li>
   </ul>
 
-  <h2>Notes on Reproducibility</h2>
-  <ul>
-    <li>Set <code>random_state</code> for deterministic splits and model training.</li>
-    <li>Ensure CV and GridSearchCV are performed on <strong>training data only</strong> to prevent leakage.</li>
-  </ul>
-
-  <hr />
+   <hr />
   <p class="muted">
     Author: Mohammed Abdulai &nbsp;|&nbsp; Course: AI in Healthcare (Michigan Technological University)
   </p>
