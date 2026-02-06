@@ -10,20 +10,6 @@
     on the held-out test set.
   </p>
 
-  <h2>Project Structure</h2>
-  <ul>
-    <li><strong>notebook/</strong> (optional) Jupyter notebook implementation</li>
-    <li><strong>src/</strong> (optional) Python scripts (data loading, training, evaluation)</li>
-    <li><strong>reports/</strong> one-page PDF report and result screenshots</li>
-  </ul>
-
-  <h2>Requirements</h2>
-  <ul>
-    <li>Python 3.9+</li>
-    <li>scikit-learn</li>
-    <li>pandas, numpy</li>
-  </ul>
-
   <h2>Methodology</h2>
   <ol>
     <li><strong>Data Split:</strong> stratified 80% train / 20% test.</li>
@@ -68,6 +54,13 @@
     <li><strong>Precision:</strong> Of predicted malignant cases, how many were truly malignant (controls false positives).</li>
     <li><strong>Recall (Sensitivity):</strong> Of truly malignant cases, how many were correctly detected (controls false negatives).</li>
     <li><strong>F1-score:</strong> Harmonic mean of precision and recall; balances false positives and false negatives.</li>
+  </ul>
+
+  <h2>Requirements</h2>
+  <ul>
+    <li>Python 3.9+</li>
+    <li>scikit-learn</li>
+    <li>pandas, numpy</li>
   </ul>
 
    <hr />
