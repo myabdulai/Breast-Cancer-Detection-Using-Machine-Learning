@@ -1,23 +1,5 @@
 <!-- README.html -->
 <!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Breast Cancer Detection Using Machine Learning (Random Forest)</title>
-  <style>
-    body { font-family: Arial, Helvetica, sans-serif; line-height: 1.5; max-width: 900px; margin: 32px auto; padding: 0 16px; }
-    code, pre { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
-    pre { padding: 12px; overflow: auto; background: #f6f8fa; border: 1px solid #d0d7de; border-radius: 8px; }
-    table { border-collapse: collapse; width: 100%; margin: 12px 0; }
-    th, td { border: 1px solid #d0d7de; padding: 10px; text-align: left; }
-    th { background: #f6f8fa; }
-    .muted { color: #57606a; }
-    .badge { display: inline-block; padding: 2px 8px; border: 1px solid #d0d7de; border-radius: 999px; font-size: 12px; margin-right: 6px; }
-    ul { margin-top: 6px; }
-  </style>
-</head>
-
 <body>
   <h1>Breast Cancer Detection Using Machine Learning</h1>
 
@@ -124,12 +106,6 @@
     <li>Set <code>random_state</code> for deterministic splits and model training.</li>
     <li>Ensure CV and GridSearchCV are performed on <strong>training data only</strong> to prevent leakage.</li>
   </ul>
-
-  <h2>Report</h2>
-  <p>
-    The one-page PDF report summarizing the objective, methodology, and results is included in the repository:
-    <code>reports/Mohammed_BreastCancerDetection-ML.pdf</code>. :contentReference[oaicite:1]{index=1}
-  </p>
 
   <hr />
   <p class="muted">
